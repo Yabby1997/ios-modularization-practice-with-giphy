@@ -8,12 +8,12 @@
 import GiphyDomainLayer
 import URLRequestDataLayer
 
-final class GiphyRepository: GiphyRepositoryProtocol {
+public final class GiphyRepository: GiphyRepositoryProtocol {
 
     private let apiKey: String
     private let networkService: URLRequestBuilderNetworkServiceProtocol
 
-    init(
+    public init(
         apiKey: String,
         networkService: URLRequestBuilderNetworkServiceProtocol
     ) {
@@ -21,7 +21,7 @@ final class GiphyRepository: GiphyRepositoryProtocol {
         self.networkService = networkService
     }
 
-    func search(query: String) async throws -> [GiphyEntity] {
+    public func search(query: String) async throws -> [GiphyEntity] {
         let result: (dataTransferObject: GiphySearchResultDataTransferObject, response: URLResponse) = try await networkService.request(
             with: GiphyRequestBuilder.search(
                 key: apiKey,

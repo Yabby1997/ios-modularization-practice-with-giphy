@@ -11,11 +11,11 @@ final public class GiphyUseCase {
 
     private let repository: GiphyRepositoryProtocol
 
-    init(repository: GiphyRepositoryProtocol) {
+    public init(repository: GiphyRepositoryProtocol) {
         self.repository = repository
     }
 
-    func search(query: String) async throws -> [GiphyEntity] {
+    public func search(query: String) async throws -> [GiphyEntity] {
         try await repository.search(query: query)
     }
 }

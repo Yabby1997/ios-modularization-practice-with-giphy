@@ -7,9 +7,14 @@
 
 import URLRequestDataLayer
 
-final public class URLRequestBuilderNetworkService: URLRequestBuilderNetworkServiceProtocol {
-    public func request(with builder: URLRequestBuilder) async throws -> (Data, URLResponse) {
+public final class URLRequestBuilderNetworkService: URLRequestBuilderNetworkServiceProtocol {
+
+    public init() { }
+
+    public func request<DTO: Decodable>(with builder: URLRequestBuilder) async throws -> (DTO, URLResponse) {
         let request = try builder.build()
-        return try await URLSession.shared.data(for: request)
+        let result: (data: Data, response: URLResponse) = try await URLSession.shared.data(for: request)
+        let dataTransferObject = try JSONDecoder().decode(DTO.self, from: result.data)
+        return (dataTransferObject, result.response)
     }
 }

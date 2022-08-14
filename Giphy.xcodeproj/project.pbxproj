@@ -11,7 +11,91 @@
 		CE6EF5D828A89B1000976D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF5D728A89B1000976D9C /* SceneDelegate.swift */; };
 		CE6EF5DF28A89B1000976D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF5DE28A89B1000976D9C /* Assets.xcassets */; };
 		CE6EF5E228A89B1000976D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF5E028A89B1000976D9C /* LaunchScreen.storyboard */; };
+		CEE155E528A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */; };
+		CEE155E628A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEE155F128A8CEC100756C89 /* GiphyDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155EE28A8CEB800756C89 /* GiphyDomainLayer.framework */; };
+		CEE155F228A8CEC100756C89 /* GiphyDomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155EE28A8CEB800756C89 /* GiphyDomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEE1561728A8CF1C00756C89 /* GiphyDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1561428A8CF1500756C89 /* GiphyDataLayer.framework */; };
+		CEE1561828A8CF1C00756C89 /* GiphyDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1561428A8CF1500756C89 /* GiphyDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEE1562328A8CF8F00756C89 /* URLRequestDataSourceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1562028A8CF6600756C89 /* URLRequestDataSourceLayer.framework */; };
+		CEE1562428A8CF8F00756C89 /* URLRequestDataSourceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE1562028A8CF6600756C89 /* URLRequestDataSourceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE155E028A8CDF700756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE0881AE28A8CD6200910E3E;
+			remoteInfo = GiphySearchPresentationLayer;
+		};
+		CEE155E228A8CDF700756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE0881B828A8CD6200910E3E;
+			remoteInfo = GiphySearchPresentationLayerTests;
+		};
+		CEE155ED28A8CEB800756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEFF2C9528A8BB6F006B169F;
+			remoteInfo = GiphyDomainLayer;
+		};
+		CEE155EF28A8CEB800756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEFF2C9F28A8BB6F006B169F;
+			remoteInfo = GiphyDomainLayerTests;
+		};
+		CEE1561328A8CF1500756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEFF2CC128A8BE8C006B169F;
+			remoteInfo = GiphyDataLayer;
+		};
+		CEE1561528A8CF1500756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEFF2CCB28A8BE8C006B169F;
+			remoteInfo = GiphyDataLayerTests;
+		};
+		CEE1561F28A8CF6600756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEACC1A628A8B33100F28BFA;
+			remoteInfo = URLRequestDataSourceLayer;
+		};
+		CEE1562128A8CF6600756C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEACC1B028A8B33100F28BFA;
+			remoteInfo = URLRequestDataSourceLayerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEE155E728A8CE2B00756C89 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEE155F228A8CEC100756C89 /* GiphyDomainLayer.framework in Embed Frameworks */,
+				CEE1561828A8CF1C00756C89 /* GiphyDataLayer.framework in Embed Frameworks */,
+				CEE155E628A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Embed Frameworks */,
+				CEE1562428A8CF8F00756C89 /* URLRequestDataSourceLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE6EF5D228A89B1000976D9C /* Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +104,10 @@
 		CE6EF5DE28A89B1000976D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6EF5E128A89B1000976D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6EF5E328A89B1000976D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphySearchPresentationLayer.xcodeproj; path = GiphySearchPresentationLayer/GiphySearchPresentationLayer.xcodeproj; sourceTree = "<group>"; };
+		CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphyDomainLayer.xcodeproj; path = GiphyDomainLayer/GiphyDomainLayer.xcodeproj; sourceTree = "<group>"; };
+		CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphyDataLayer.xcodeproj; path = GiphyDataLayer/GiphyDataLayer.xcodeproj; sourceTree = "<group>"; };
+		CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = URLRequestDataSourceLayer.xcodeproj; path = URLRequestDataSourceLayer/URLRequestDataSourceLayer.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +115,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE155F128A8CEC100756C89 /* GiphyDomainLayer.framework in Frameworks */,
+				CEE1561728A8CF1C00756C89 /* GiphyDataLayer.framework in Frameworks */,
+				CEE155E528A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Frameworks */,
+				CEE1562328A8CF8F00756C89 /* URLRequestDataSourceLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +128,13 @@
 		CE6EF5C928A89B1000976D9C = {
 			isa = PBXGroup;
 			children = (
+				CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */,
+				CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */,
+				CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */,
+				CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */,
 				CE6EF5D428A89B1000976D9C /* Giphy */,
 				CE6EF5D328A89B1000976D9C /* Products */,
+				CEE155E428A8CE2B00756C89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +158,49 @@
 			path = Giphy;
 			sourceTree = "<group>";
 		};
+		CEE155DB28A8CDF600756C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */,
+				CEE155E328A8CDF700756C89 /* GiphySearchPresentationLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE155E428A8CE2B00756C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE155E928A8CEB800756C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE155EE28A8CEB800756C89 /* GiphyDomainLayer.framework */,
+				CEE155F028A8CEB800756C89 /* GiphyDomainLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE1560D28A8CF1500756C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1561428A8CF1500756C89 /* GiphyDataLayer.framework */,
+				CEE1561628A8CF1500756C89 /* GiphyDataLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE1561A28A8CF6600756C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1562028A8CF6600756C89 /* URLRequestDataSourceLayer.framework */,
+				CEE1562228A8CF6600756C89 /* URLRequestDataSourceLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +211,7 @@
 				CE6EF5CE28A89B1000976D9C /* Sources */,
 				CE6EF5CF28A89B1000976D9C /* Frameworks */,
 				CE6EF5D028A89B1000976D9C /* Resources */,
+				CEE155E728A8CE2B00756C89 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -107,12 +248,89 @@
 			mainGroup = CE6EF5C928A89B1000976D9C;
 			productRefGroup = CE6EF5D328A89B1000976D9C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CEE1560D28A8CF1500756C89 /* Products */;
+					ProjectRef = CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */;
+				},
+				{
+					ProductGroup = CEE155E928A8CEB800756C89 /* Products */;
+					ProjectRef = CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */;
+				},
+				{
+					ProductGroup = CEE155DB28A8CDF600756C89 /* Products */;
+					ProjectRef = CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */;
+				},
+				{
+					ProductGroup = CEE1561A28A8CF6600756C89 /* Products */;
+					ProjectRef = CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CE6EF5D128A89B1000976D9C /* Giphy */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GiphySearchPresentationLayer.framework;
+			remoteRef = CEE155E028A8CDF700756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE155E328A8CDF700756C89 /* GiphySearchPresentationLayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GiphySearchPresentationLayerTests.xctest;
+			remoteRef = CEE155E228A8CDF700756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE155EE28A8CEB800756C89 /* GiphyDomainLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GiphyDomainLayer.framework;
+			remoteRef = CEE155ED28A8CEB800756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE155F028A8CEB800756C89 /* GiphyDomainLayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GiphyDomainLayerTests.xctest;
+			remoteRef = CEE155EF28A8CEB800756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE1561428A8CF1500756C89 /* GiphyDataLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GiphyDataLayer.framework;
+			remoteRef = CEE1561328A8CF1500756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE1561628A8CF1500756C89 /* GiphyDataLayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GiphyDataLayerTests.xctest;
+			remoteRef = CEE1561528A8CF1500756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE1562028A8CF6600756C89 /* URLRequestDataSourceLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = URLRequestDataSourceLayer.framework;
+			remoteRef = CEE1561F28A8CF6600756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEE1562228A8CF6600756C89 /* URLRequestDataSourceLayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = URLRequestDataSourceLayerTests.xctest;
+			remoteRef = CEE1562128A8CF6600756C89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CE6EF5D028A89B1000976D9C /* Resources */ = {
