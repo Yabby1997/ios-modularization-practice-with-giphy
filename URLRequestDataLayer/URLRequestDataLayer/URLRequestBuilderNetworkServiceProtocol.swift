@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol URLRequestBuilderNetworkServiceProtocol {
-    func request(with builder: URLRequestBuilder) async throws -> (Data, URLResponse)
+    func request<DTO: Decodable>(with builder: URLRequestBuilder) async throws -> (DTO, URLResponse)
 }

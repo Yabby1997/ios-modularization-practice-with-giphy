@@ -30,19 +30,19 @@ public protocol URLRequestBuilder {
     var path: String { get }
     var method: HTTPMethods { get }
     var headers: [String: String]? { get }
-    var parameters: [String: String]? { get }
+    var parameters: [String: String?]? { get }
     var body: [String: Any]? { get }
     func build() throws -> URLRequest
 }
 
 extension URLRequestBuilder {
-    func build() throws -> URLRequest {
+    public func build() throws -> URLRequest {
         guard let url = URL(string: domain + path) else { throw URLRequestBuilderErrors.failedToBuildRequest }
         var urlRequest: URLRequest
 
         var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
         urlComponents?.queryItems = parameters?.compactMap { key, value in
-            if key.isEmpty { return nil }
+            guard let value = value, !key.isEmpty else { return nil }
             return URLQueryItem(name: key, value: value)
         } ?? []
 
