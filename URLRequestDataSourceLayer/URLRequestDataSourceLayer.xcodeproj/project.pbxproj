@@ -87,7 +87,6 @@
 		CEACC19C28A8B33100F28BFA = {
 			isa = PBXGroup;
 			children = (
-				CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */,
 				CEACC1A828A8B33100F28BFA /* URLRequestDataSourceLayer */,
 				CEACC1B428A8B33100F28BFA /* URLRequestDataSourceLayerTests */,
 				CEACC1A728A8B33100F28BFA /* Products */,
@@ -134,6 +133,7 @@
 		CEACC1C928A8B35E00F28BFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

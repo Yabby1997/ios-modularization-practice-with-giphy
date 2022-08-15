@@ -11,6 +11,7 @@
 		CE6EF5D828A89B1000976D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF5D728A89B1000976D9C /* SceneDelegate.swift */; };
 		CE6EF5DF28A89B1000976D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF5DE28A89B1000976D9C /* Assets.xcassets */; };
 		CE6EF5E228A89B1000976D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF5E028A89B1000976D9C /* LaunchScreen.storyboard */; };
+		CEB5C0C328AA2B41009EBDBE /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = CEB5C0C228AA2B41009EBDBE /* Swinject */; };
 		CEE155E528A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */; };
 		CEE155E628A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155E128A8CDF700756C89 /* GiphySearchPresentationLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEE155F128A8CEC100756C89 /* GiphyDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE155EE28A8CEB800756C89 /* GiphyDomainLayer.framework */; };
@@ -116,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE155F128A8CEC100756C89 /* GiphyDomainLayer.framework in Frameworks */,
+				CEB5C0C328AA2B41009EBDBE /* Swinject in Frameworks */,
 				CEE1561728A8CF1C00756C89 /* GiphyDataLayer.framework in Frameworks */,
 				CEE155E528A8CE2B00756C89 /* GiphySearchPresentationLayer.framework in Frameworks */,
 				CEE1562328A8CF8F00756C89 /* URLRequestDataSourceLayer.framework in Frameworks */,
@@ -128,10 +130,6 @@
 		CE6EF5C928A89B1000976D9C = {
 			isa = PBXGroup;
 			children = (
-				CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */,
-				CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */,
-				CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */,
-				CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */,
 				CE6EF5D428A89B1000976D9C /* Giphy */,
 				CE6EF5D328A89B1000976D9C /* Products */,
 				CEE155E428A8CE2B00756C89 /* Frameworks */,
@@ -170,6 +168,10 @@
 		CEE155E428A8CE2B00756C89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEE1561928A8CF6600756C89 /* URLRequestDataSourceLayer.xcodeproj */,
+				CEE1560C28A8CF1500756C89 /* GiphyDataLayer.xcodeproj */,
+				CEE155E828A8CEB800756C89 /* GiphyDomainLayer.xcodeproj */,
+				CEE155DA28A8CDF600756C89 /* GiphySearchPresentationLayer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,6 +220,9 @@
 			dependencies = (
 			);
 			name = Giphy;
+			packageProductDependencies = (
+				CEB5C0C228AA2B41009EBDBE /* Swinject */,
+			);
 			productName = Giphy;
 			productReference = CE6EF5D228A89B1000976D9C /* Giphy.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +251,9 @@
 				Base,
 			);
 			mainGroup = CE6EF5C928A89B1000976D9C;
+			packageReferences = (
+				CEB5C0C128AA2B41009EBDBE /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = CE6EF5D328A89B1000976D9C /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -558,6 +566,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEB5C0C128AA2B41009EBDBE /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEB5C0C228AA2B41009EBDBE /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEB5C0C128AA2B41009EBDBE /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE6EF5CA28A89B1000976D9C /* Project object */;
 }

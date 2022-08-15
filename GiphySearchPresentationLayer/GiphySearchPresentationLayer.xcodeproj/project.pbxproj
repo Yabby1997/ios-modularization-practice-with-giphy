@@ -89,7 +89,6 @@
 		CE0881A428A8CD6200910E3E = {
 			isa = PBXGroup;
 			children = (
-				CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */,
 				CE0881B028A8CD6200910E3E /* GiphySearchPresentationLayer */,
 				CE0881BC28A8CD6200910E3E /* GiphySearchPresentationLayerTests */,
 				CE0881AF28A8CD6200910E3E /* Products */,
@@ -137,6 +136,7 @@
 		CE0881D128A8CD7100910E3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

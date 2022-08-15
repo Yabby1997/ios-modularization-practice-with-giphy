@@ -110,8 +110,6 @@
 		CEFF2CB728A8BE8C006B169F = {
 			isa = PBXGroup;
 			children = (
-				CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */,
-				CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */,
 				CEFF2CC328A8BE8C006B169F /* GiphyDataLayer */,
 				CEFF2CCF28A8BE8C006B169F /* GiphyDataLayerTests */,
 				CEFF2CC228A8BE8C006B169F /* Products */,
@@ -169,6 +167,8 @@
 		CEFF2CEF28A8BEDC006B169F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */,
+				CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

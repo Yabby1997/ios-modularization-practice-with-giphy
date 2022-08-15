@@ -27,7 +27,7 @@ public enum URLRequestBuilderErrors: LocalizedError {
 
 public protocol URLRequestBuilder {
     var domain: String { get }
-    var path: String { get }
+    var path: String? { get }
     var method: HTTPMethods { get }
     var headers: [String: String]? { get }
     var parameters: [String: String?]? { get }
@@ -37,7 +37,7 @@ public protocol URLRequestBuilder {
 
 extension URLRequestBuilder {
     public func build() throws -> URLRequest {
-        guard let url = URL(string: domain + path) else { throw URLRequestBuilderErrors.failedToBuildRequest }
+        guard let url = URL(string: domain + (path ?? "")) else { throw URLRequestBuilderErrors.failedToBuildRequest }
         var urlRequest: URLRequest
 
         var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
