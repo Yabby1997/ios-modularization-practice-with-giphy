@@ -28,7 +28,7 @@ enum GiphyRequestBuilder: URLRequestBuilder {
 
     var domain: String { "https://api.giphy.com/v1/gifs" }
 
-    var path: String {
+    var path: String? {
         switch self {
         case .search: return "/search"
         }

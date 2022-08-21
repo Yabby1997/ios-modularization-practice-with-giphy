@@ -7,9 +7,8 @@
 
 import UIKit
 import GiphySearchPresentationLayer
-import GiphyDomainLayer
-import GiphyDataLayer
-import URLRequestDataSourceLayer
+
+import Swinject
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
@@ -21,17 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = GiphySearchViewController(
-            viewModel: GiphySearchViewModel(
-                giphyUseCase: GiphyUseCase(
-                    repository: GiphyRepository(
-                        apiKey: "rEDEvI1fNspJPNdMNscfdzwLsC3zZRx5",
-                        networkService: URLRequestBuilderNetworkService()
-                    )
-                )
-            )
-        )
-
+        window?.rootViewController = Container.shared.resolve(GiphySearchViewController.self)
         window?.makeKeyAndVisible()
     }
 }

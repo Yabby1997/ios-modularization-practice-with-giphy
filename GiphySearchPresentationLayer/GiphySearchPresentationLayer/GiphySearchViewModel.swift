@@ -10,9 +10,9 @@ import GiphyDomainLayer
 
 public final class GiphySearchViewModel {
 
-    private let giphyUseCase: GiphyUseCase
+    private let giphyUseCase: GiphyUseCaseProtocol
 
-    public init(giphyUseCase: GiphyUseCase) {
+    public init(giphyUseCase: GiphyUseCaseProtocol) {
         self.giphyUseCase = giphyUseCase
     }
 

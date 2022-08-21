@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE51CAA228B215CF004A110A /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51CAA128B215CF004A110A /* DependencyContainer.swift */; };
 		CE6EF5D628A89B1000976D9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF5D528A89B1000976D9C /* AppDelegate.swift */; };
 		CE6EF5D828A89B1000976D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF5D728A89B1000976D9C /* SceneDelegate.swift */; };
 		CE6EF5DF28A89B1000976D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF5DE28A89B1000976D9C /* Assets.xcassets */; };
@@ -99,6 +100,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE51CAA128B215CF004A110A /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		CE6EF5D228A89B1000976D9C /* Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6EF5D528A89B1000976D9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6EF5D728A89B1000976D9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				CE6EF5D528A89B1000976D9C /* AppDelegate.swift */,
 				CE6EF5D728A89B1000976D9C /* SceneDelegate.swift */,
+				CE51CAA128B215CF004A110A /* DependencyContainer.swift */,
 				CE6EF5DE28A89B1000976D9C /* Assets.xcassets */,
 				CE6EF5E028A89B1000976D9C /* LaunchScreen.storyboard */,
 				CE6EF5E328A89B1000976D9C /* Info.plist */,
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6EF5D628A89B1000976D9C /* AppDelegate.swift in Sources */,
+				CE51CAA228B215CF004A110A /* DependencyContainer.swift in Sources */,
 				CE6EF5D828A89B1000976D9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

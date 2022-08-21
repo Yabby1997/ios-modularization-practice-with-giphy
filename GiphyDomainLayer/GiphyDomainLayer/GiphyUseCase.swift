@@ -7,7 +7,11 @@
 
 import Foundation
 
-final public class GiphyUseCase {
+public protocol GiphyUseCaseProtocol {
+    func search(query: String) async throws -> [GiphyEntity]
+}
+
+final public class GiphyUseCase: GiphyUseCaseProtocol {
 
     private let repository: GiphyRepositoryProtocol
 
