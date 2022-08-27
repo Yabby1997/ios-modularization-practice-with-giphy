@@ -8,9 +8,9 @@
 import Foundation
 
 public struct GiphyEntity {
-    let name: String
-    let thumbnailUrl: URL?
-    let originalUrl: URL?
+    public let name: String
+    public let thumbnailUrl: URL?
+    public let originalUrl: URL?
 
     public init(
         name: String,

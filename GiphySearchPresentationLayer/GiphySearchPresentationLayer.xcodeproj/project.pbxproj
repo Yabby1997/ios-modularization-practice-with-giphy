@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0881B328A8CD6200910E3E /* GiphySearchPresentationLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = CE0881B228A8CD6200910E3E /* GiphySearchPresentationLayer.docc */; };
 		CE0881B928A8CD6200910E3E /* GiphySearchPresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881AE28A8CD6200910E3E /* GiphySearchPresentationLayer.framework */; };
 		CE0881BE28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881BD28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift */; };
-		CE0881BF28A8CD6200910E3E /* GiphySearchPresentationLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0881B128A8CD6200910E3E /* GiphySearchPresentationLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0881D228A8CD7100910E3E /* GiphyDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */; };
 		CE0881D328A8CD7100910E3E /* GiphyDomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE0881D628A8CD7800910E3E /* GiphySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881D528A8CD7800910E3E /* GiphySearchViewController.swift */; };
 		CE0881D828A8CD8F00910E3E /* GiphySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */; };
+		CE16FEDE28BA003100390980 /* GiphySearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */; };
+		CE16FEE428BA079D00390980 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE16FEE328BA079D00390980 /* Kingfisher */; };
+		CE16FEE728BA096800390980 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE16FEE628BA096800390980 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +58,12 @@
 
 /* Begin PBXFileReference section */
 		CE0881AE28A8CD6200910E3E /* GiphySearchPresentationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GiphySearchPresentationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0881B128A8CD6200910E3E /* GiphySearchPresentationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiphySearchPresentationLayer.h; sourceTree = "<group>"; };
-		CE0881B228A8CD6200910E3E /* GiphySearchPresentationLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GiphySearchPresentationLayer.docc; sourceTree = "<group>"; };
 		CE0881B828A8CD6200910E3E /* GiphySearchPresentationLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphySearchPresentationLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0881BD28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchPresentationLayerTests.swift; sourceTree = "<group>"; };
 		CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphyDomainLayer.xcodeproj; path = ../GiphyDomainLayer/GiphyDomainLayer.xcodeproj; sourceTree = "<group>"; };
 		CE0881D528A8CD7800910E3E /* GiphySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchViewController.swift; sourceTree = "<group>"; };
 		CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchViewModel.swift; sourceTree = "<group>"; };
+		CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE16FEE428BA079D00390980 /* Kingfisher in Frameworks */,
+				CE16FEE728BA096800390980 /* SnapKit in Frameworks */,
 				CE0881D228A8CD7100910E3E /* GiphyDomainLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,10 +110,9 @@
 		CE0881B028A8CD6200910E3E /* GiphySearchPresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CE0881B128A8CD6200910E3E /* GiphySearchPresentationLayer.h */,
-				CE0881B228A8CD6200910E3E /* GiphySearchPresentationLayer.docc */,
 				CE0881D528A8CD7800910E3E /* GiphySearchViewController.swift */,
 				CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */,
+				CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */,
 			);
 			path = GiphySearchPresentationLayer;
 			sourceTree = "<group>";
@@ -148,7 +149,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0881BF28A8CD6200910E3E /* GiphySearchPresentationLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +170,10 @@
 			dependencies = (
 			);
 			name = GiphySearchPresentationLayer;
+			packageProductDependencies = (
+				CE16FEE328BA079D00390980 /* Kingfisher */,
+				CE16FEE628BA096800390980 /* SnapKit */,
+			);
 			productName = GiphySearchPresentationLayer;
 			productReference = CE0881AE28A8CD6200910E3E /* GiphySearchPresentationLayer.framework */;
 			productType = "com.apple.product-type.framework";
@@ -219,6 +223,13 @@
 				Base,
 			);
 			mainGroup = CE0881A428A8CD6200910E3E;
+			packageReferences = (
+				CE16FED528B9F87200390980 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+				CE16FEDA28B9FB7D00390980 /* XCRemoteSwiftPackageReference "Nuke" */,
+				CE16FEDF28BA023900390980 /* XCRemoteSwiftPackageReference "Nuke-FLAnimatedImage-Plugin" */,
+				CE16FEE228BA079D00390980 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CE16FEE528BA096800390980 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = CE0881AF28A8CD6200910E3E /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -276,7 +287,7 @@
 			files = (
 				CE0881D628A8CD7800910E3E /* GiphySearchViewController.swift in Sources */,
 				CE0881D828A8CD8F00910E3E /* GiphySearchViewModel.swift in Sources */,
-				CE0881B328A8CD6200910E3E /* GiphySearchPresentationLayer.docc in Sources */,
+				CE16FEDE28BA003100390980 /* GiphySearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +551,62 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE16FED528B9F87200390980 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CE16FEDA28B9FB7D00390980 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CE16FEDF28BA023900390980 /* XCRemoteSwiftPackageReference "Nuke-FLAnimatedImage-Plugin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke-FLAnimatedImage-Plugin.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		CE16FEE228BA079D00390980 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		CE16FEE528BA096800390980 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE16FEE328BA079D00390980 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE16FEE228BA079D00390980 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CE16FEE628BA096800390980 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE16FEE528BA096800390980 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE0881A528A8CD6200910E3E /* Project object */;
 }

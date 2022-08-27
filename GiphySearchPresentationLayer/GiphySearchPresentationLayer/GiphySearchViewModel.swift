@@ -10,13 +10,24 @@ import GiphyDomainLayer
 
 public final class GiphySearchViewModel {
 
+    @Published var images: [GiphyEntity] = []
+
     private let giphyUseCase: GiphyUseCaseProtocol
 
     public init(giphyUseCase: GiphyUseCaseProtocol) {
         self.giphyUseCase = giphyUseCase
     }
 
-    func didLoad() async throws -> [GiphyEntity] {
-        return try await giphyUseCase.search(query: "spongebob")
+    func didLoad() {
+        Task { [weak self] in
+            do {
+                let images = try await giphyUseCase.search(query: "spongebob")
+                self?.images.append(contentsOf: images)
+                print(images)
+            }
+            catch {
+                print(error.localizedDescription)
+            }
+        }
     }
 }
