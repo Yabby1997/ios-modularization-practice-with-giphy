@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		CE0881B928A8CD6200910E3E /* GiphySearchPresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881AE28A8CD6200910E3E /* GiphySearchPresentationLayer.framework */; };
 		CE0881BE28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881BD28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift */; };
-		CE0881D228A8CD7100910E3E /* GiphyDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */; };
-		CE0881D328A8CD7100910E3E /* GiphyDomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE0881D628A8CD7800910E3E /* GiphySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881D528A8CD7800910E3E /* GiphySearchViewController.swift */; };
 		CE0881D828A8CD8F00910E3E /* GiphySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */; };
 		CE16FEDE28BA003100390980 /* GiphySearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */; };
 		CE16FEE428BA079D00390980 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE16FEE328BA079D00390980 /* Kingfisher */; };
 		CE16FEE728BA096800390980 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE16FEE628BA096800390980 /* SnapKit */; };
+		CE728FB728D0C31800429022 /* GiphyDomainLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */; };
+		CE728FB828D0C31800429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,20 +26,6 @@
 			remoteGlobalIDString = CE0881AD28A8CD6200910E3E;
 			remoteInfo = GiphySearchPresentationLayer;
 		};
-		CE0881CD28A8CD6C00910E3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEFF2C9528A8BB6F006B169F;
-			remoteInfo = GiphyDomainLayer;
-		};
-		CE0881CF28A8CD6C00910E3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEFF2C9F28A8BB6F006B169F;
-			remoteInfo = GiphyDomainLayerTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CE0881D328A8CD7100910E3E /* GiphyDomainLayer.framework in Embed Frameworks */,
+				CE728FB828D0C31800429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,10 +46,10 @@
 		CE0881AE28A8CD6200910E3E /* GiphySearchPresentationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GiphySearchPresentationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0881B828A8CD6200910E3E /* GiphySearchPresentationLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphySearchPresentationLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0881BD28A8CD6200910E3E /* GiphySearchPresentationLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchPresentationLayerTests.swift; sourceTree = "<group>"; };
-		CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphyDomainLayer.xcodeproj; path = ../GiphyDomainLayer/GiphyDomainLayer.xcodeproj; sourceTree = "<group>"; };
 		CE0881D528A8CD7800910E3E /* GiphySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchViewController.swift; sourceTree = "<group>"; };
 		CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchViewModel.swift; sourceTree = "<group>"; };
 		CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphyDomainLayer.xcframework; path = ../GiphyDomainLayer/build/GiphyDomainLayer.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +59,7 @@
 			files = (
 				CE16FEE428BA079D00390980 /* Kingfisher in Frameworks */,
 				CE16FEE728BA096800390980 /* SnapKit in Frameworks */,
-				CE0881D228A8CD7100910E3E /* GiphyDomainLayer.framework in Frameworks */,
+				CE728FB728D0C31800429022 /* GiphyDomainLayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,19 +111,10 @@
 			path = GiphySearchPresentationLayerTests;
 			sourceTree = "<group>";
 		};
-		CE0881C928A8CD6C00910E3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */,
-				CE0881D028A8CD6C00910E3E /* GiphyDomainLayerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CE0881D128A8CD7100910E3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */,
+				CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,12 +209,6 @@
 			);
 			productRefGroup = CE0881AF28A8CD6200910E3E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE0881C928A8CD6C00910E3E /* Products */;
-					ProjectRef = CE0881C828A8CD6C00910E3E /* GiphyDomainLayer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				CE0881AD28A8CD6200910E3E /* GiphySearchPresentationLayer */,
@@ -245,23 +216,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CE0881CE28A8CD6C00910E3E /* GiphyDomainLayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GiphyDomainLayer.framework;
-			remoteRef = CE0881CD28A8CD6C00910E3E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE0881D028A8CD6C00910E3E /* GiphyDomainLayerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GiphyDomainLayerTests.xctest;
-			remoteRef = CE0881CF28A8CD6C00910E3E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CE0881AC28A8CD6200910E3E /* Resources */ = {
@@ -314,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -377,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

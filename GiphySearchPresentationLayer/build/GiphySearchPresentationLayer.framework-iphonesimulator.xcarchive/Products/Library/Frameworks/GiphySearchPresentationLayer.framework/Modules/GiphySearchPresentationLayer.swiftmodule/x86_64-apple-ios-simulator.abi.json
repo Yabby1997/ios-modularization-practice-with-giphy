@@ -1,0 +1,525 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphySearchViewController",
+        "printedName": "GiphySearchViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphySearchViewController",
+                "printedName": "GiphySearchPresentationLayer.GiphySearchViewController",
+                "usr": "c:@M@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GiphySearchViewModel",
+                "printedName": "GiphySearchPresentationLayer.GiphySearchViewModel",
+                "usr": "s:28GiphySearchPresentationLayer0aB9ViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:28GiphySearchPresentationLayer0aB14ViewControllerC9viewModelAcA0abeH0C_tcfc",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC9viewModelAcA0abeH0C_tcfc",
+            "moduleName": "GiphySearchPresentationLayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)viewDidLoad",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphySearchViewController",
+                "printedName": "GiphySearchPresentationLayer.GiphySearchViewController",
+                "usr": "c:@M@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "GiphySearchPresentationLayer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC010collectionE0_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionE0C_So0nE6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC010collectionE0_6layout30minimumLineSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionE0C_So0rE6LayoutCSitF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "objc_name": "collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC010collectionE0_6layout35minimumInteritemSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionE0C_So0rE6LayoutCSitF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "objc_name": "collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC010collectionE0_22numberOfItemsInSectionSiSo012UICollectionE0C_SitF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC010collectionE0_13cellForItemAtSo012UICollectionE4CellCSo0lE0C_10Foundation9IndexPathVtF",
+            "moduleName": "GiphySearchPresentationLayer",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GiphySearchPresentationLayer@objc(cs)GiphySearchViewController",
+        "mangledName": "$s28GiphySearchPresentationLayer0aB14ViewControllerC",
+        "moduleName": "GiphySearchPresentationLayer",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GiphyDomainLayer",
+        "printedName": "GiphyDomainLayer",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphySearchViewModel",
+        "printedName": "GiphySearchViewModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(giphyUseCase:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphySearchViewModel",
+                "printedName": "GiphySearchPresentationLayer.GiphySearchViewModel",
+                "usr": "s:28GiphySearchPresentationLayer0aB9ViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GiphyUseCaseProtocol",
+                "printedName": "GiphyDomainLayer.GiphyUseCaseProtocol",
+                "usr": "s:16GiphyDomainLayer0A15UseCaseProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:28GiphySearchPresentationLayer0aB9ViewModelC12giphyUseCaseAC0a6DomainD00ahI8Protocol_p_tcfc",
+            "mangledName": "$s28GiphySearchPresentationLayer0aB9ViewModelC12giphyUseCaseAC0a6DomainD00ahI8Protocol_p_tcfc",
+            "moduleName": "GiphySearchPresentationLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:28GiphySearchPresentationLayer0aB9ViewModelC",
+        "mangledName": "$s28GiphySearchPresentationLayer0aB9ViewModelC",
+        "moduleName": "GiphySearchPresentationLayer",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphySearchPresentationLayer\/GiphySearchPresentationLayer\/GiphySearchViewController.swift",
+      "kind": "Array",
+      "offset": 756,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphySearchPresentationLayer\/GiphySearchPresentationLayer\/GiphySearchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 25,
+      "value": "\"GiphySearchPresentationLayer.GiphySearchViewController\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphySearchPresentationLayer\/GiphySearchPresentationLayer\/GiphySearchViewModel.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

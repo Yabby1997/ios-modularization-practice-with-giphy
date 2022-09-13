@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE728F9F28D0BF5100429022 /* URLRequestDataLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE728F9E28D0BF5100429022 /* URLRequestDataLayer.xcframework */; };
+		CE728FA028D0BF5100429022 /* URLRequestDataLayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE728F9E28D0BF5100429022 /* URLRequestDataLayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEACC1AB28A8B33100F28BFA /* URLRequestDataSourceLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = CEACC1AA28A8B33100F28BFA /* URLRequestDataSourceLayer.docc */; };
 		CEACC1B128A8B33100F28BFA /* URLRequestDataSourceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACC1A628A8B33100F28BFA /* URLRequestDataSourceLayer.framework */; };
 		CEACC1B628A8B33100F28BFA /* URLRequestDataSourceLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACC1B528A8B33100F28BFA /* URLRequestDataSourceLayerTests.swift */; };
 		CEACC1B728A8B33100F28BFA /* URLRequestDataSourceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CEACC1A928A8B33100F28BFA /* URLRequestDataSourceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEACC1CA28A8B35E00F28BFA /* URLRequestDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACC1C628A8B33B00F28BFA /* URLRequestDataLayer.framework */; };
-		CEACC1CB28A8B35E00F28BFA /* URLRequestDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEACC1C628A8B33B00F28BFA /* URLRequestDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEACC1CE28A8B38000F28BFA /* URLRequestBuilderNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACC1CD28A8B38000F28BFA /* URLRequestBuilderNetworkService.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,20 +24,6 @@
 			remoteGlobalIDString = CEACC1A528A8B33100F28BFA;
 			remoteInfo = URLRequestDataSourceLayer;
 		};
-		CEACC1C528A8B33B00F28BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEACC17C28A8B2F100F28BFA;
-			remoteInfo = URLRequestDataLayer;
-		};
-		CEACC1C728A8B33B00F28BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEACC18628A8B2F200F28BFA;
-			remoteInfo = URLRequestDataLayerTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CEACC1CB28A8B35E00F28BFA /* URLRequestDataLayer.framework in Embed Frameworks */,
+				CE728FA028D0BF5100429022 /* URLRequestDataLayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,12 +41,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE728F9E28D0BF5100429022 /* URLRequestDataLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = URLRequestDataLayer.xcframework; path = ../URLRequestDataLayer/build/URLRequestDataLayer.xcframework; sourceTree = "<group>"; };
+		CE728FC528D0C53500429022 /* URLRequestDataSourceLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = URLRequestDataSourceLayer.xcframework; path = build/URLRequestDataSourceLayer.xcframework; sourceTree = "<group>"; };
 		CEACC1A628A8B33100F28BFA /* URLRequestDataSourceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLRequestDataSourceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACC1A928A8B33100F28BFA /* URLRequestDataSourceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLRequestDataSourceLayer.h; sourceTree = "<group>"; };
 		CEACC1AA28A8B33100F28BFA /* URLRequestDataSourceLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = URLRequestDataSourceLayer.docc; sourceTree = "<group>"; };
 		CEACC1B028A8B33100F28BFA /* URLRequestDataSourceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLRequestDataSourceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACC1B528A8B33100F28BFA /* URLRequestDataSourceLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestDataSourceLayerTests.swift; sourceTree = "<group>"; };
-		CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = URLRequestDataLayer.xcodeproj; path = ../URLRequestDataLayer/URLRequestDataLayer.xcodeproj; sourceTree = "<group>"; };
 		CEACC1CD28A8B38000F28BFA /* URLRequestBuilderNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilderNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEACC1CA28A8B35E00F28BFA /* URLRequestDataLayer.framework in Frameworks */,
+				CE728F9F28D0BF5100429022 /* URLRequestDataLayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,19 +108,11 @@
 			path = URLRequestDataSourceLayerTests;
 			sourceTree = "<group>";
 		};
-		CEACC1C128A8B33B00F28BFA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEACC1C628A8B33B00F28BFA /* URLRequestDataLayer.framework */,
-				CEACC1C828A8B33B00F28BFA /* URLRequestDataLayerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CEACC1C928A8B35E00F28BFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */,
+				CE728FC528D0C53500429022 /* URLRequestDataSourceLayer.xcframework */,
+				CE728F9E28D0BF5100429022 /* URLRequestDataLayer.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,12 +197,6 @@
 			mainGroup = CEACC19C28A8B33100F28BFA;
 			productRefGroup = CEACC1A728A8B33100F28BFA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CEACC1C128A8B33B00F28BFA /* Products */;
-					ProjectRef = CEACC1C028A8B33B00F28BFA /* URLRequestDataLayer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				CEACC1A528A8B33100F28BFA /* URLRequestDataSourceLayer */,
@@ -231,23 +204,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CEACC1C628A8B33B00F28BFA /* URLRequestDataLayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = URLRequestDataLayer.framework;
-			remoteRef = CEACC1C528A8B33B00F28BFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEACC1C828A8B33B00F28BFA /* URLRequestDataLayerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = URLRequestDataLayerTests.xctest;
-			remoteRef = CEACC1C728A8B33B00F28BFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CEACC1A428A8B33100F28BFA /* Resources */ = {
@@ -299,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -362,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

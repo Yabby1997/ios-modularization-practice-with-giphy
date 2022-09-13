@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		CE17721328A8C2E70083E72D /* GiphyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17721228A8C2E70083E72D /* GiphyRepository.swift */; };
 		CE17721B28A8C4DF0083E72D /* GiphyDataTransferObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17721A28A8C4DF0083E72D /* GiphyDataTransferObject.swift */; };
+		CE728FAB28D0C0E600429022 /* URLRequestDataLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FAA28D0C0E600429022 /* URLRequestDataLayer.xcframework */; };
+		CE728FAC28D0C0E600429022 /* URLRequestDataLayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FAA28D0C0E600429022 /* URLRequestDataLayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE728FB128D0C2CC00429022 /* GiphyDomainLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB028D0C2CC00429022 /* GiphyDomainLayer.xcframework */; };
+		CE728FB228D0C2CC00429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB028D0C2CC00429022 /* GiphyDomainLayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEFF2CC628A8BE8C006B169F /* GiphyDataLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = CEFF2CC528A8BE8C006B169F /* GiphyDataLayer.docc */; };
 		CEFF2CCC28A8BE8C006B169F /* GiphyDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF2CC128A8BE8C006B169F /* GiphyDataLayer.framework */; };
 		CEFF2CD128A8BE8C006B169F /* GiphyDataLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF2CD028A8BE8C006B169F /* GiphyDataLayerTests.swift */; };
 		CEFF2CD228A8BE8C006B169F /* GiphyDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF2CC428A8BE8C006B169F /* GiphyDataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEFF2CEE28A8BEC2006B169F /* GiphyRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF2CED28A8BEC2006B169F /* GiphyRequestBuilder.swift */; };
-		CEFF2CF028A8BEDC006B169F /* GiphyDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF2CE128A8BEA5006B169F /* GiphyDomainLayer.framework */; };
-		CEFF2CF128A8BEDC006B169F /* GiphyDomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF2CE128A8BEA5006B169F /* GiphyDomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFF2CF328A8BEDE006B169F /* URLRequestDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF2CEA28A8BEB1006B169F /* URLRequestDataLayer.framework */; };
-		CEFF2CF428A8BEDE006B169F /* URLRequestDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF2CEA28A8BEB1006B169F /* URLRequestDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,34 +28,6 @@
 			remoteGlobalIDString = CEFF2CC028A8BE8C006B169F;
 			remoteInfo = GiphyDataLayer;
 		};
-		CEFF2CE028A8BEA5006B169F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEFF2C9528A8BB6F006B169F;
-			remoteInfo = GiphyDomainLayer;
-		};
-		CEFF2CE228A8BEA5006B169F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEFF2C9F28A8BB6F006B169F;
-			remoteInfo = GiphyDomainLayerTests;
-		};
-		CEFF2CE928A8BEB1006B169F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEACC17C28A8B2F100F28BFA;
-			remoteInfo = URLRequestDataLayer;
-		};
-		CEFF2CEB28A8BEB1006B169F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CEACC18628A8B2F200F28BFA;
-			remoteInfo = URLRequestDataLayerTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,8 +37,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CEFF2CF428A8BEDE006B169F /* URLRequestDataLayer.framework in Embed Frameworks */,
-				CEFF2CF128A8BEDC006B169F /* GiphyDomainLayer.framework in Embed Frameworks */,
+				CE728FAC28D0C0E600429022 /* URLRequestDataLayer.xcframework in Embed Frameworks */,
+				CE728FB228D0C2CC00429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,13 +48,13 @@
 /* Begin PBXFileReference section */
 		CE17721228A8C2E70083E72D /* GiphyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyRepository.swift; sourceTree = "<group>"; };
 		CE17721A28A8C4DF0083E72D /* GiphyDataTransferObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyDataTransferObject.swift; sourceTree = "<group>"; };
+		CE728FAA28D0C0E600429022 /* URLRequestDataLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = URLRequestDataLayer.xcframework; path = ../URLRequestDataLayer/build/URLRequestDataLayer.xcframework; sourceTree = "<group>"; };
+		CE728FB028D0C2CC00429022 /* GiphyDomainLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphyDomainLayer.xcframework; path = ../GiphyDomainLayer/build/GiphyDomainLayer.xcframework; sourceTree = "<group>"; };
 		CEFF2CC128A8BE8C006B169F /* GiphyDataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GiphyDataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF2CC428A8BE8C006B169F /* GiphyDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiphyDataLayer.h; sourceTree = "<group>"; };
 		CEFF2CC528A8BE8C006B169F /* GiphyDataLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GiphyDataLayer.docc; sourceTree = "<group>"; };
 		CEFF2CCB28A8BE8C006B169F /* GiphyDataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphyDataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF2CD028A8BE8C006B169F /* GiphyDataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyDataLayerTests.swift; sourceTree = "<group>"; };
-		CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GiphyDomainLayer.xcodeproj; path = ../GiphyDomainLayer/GiphyDomainLayer.xcodeproj; sourceTree = "<group>"; };
-		CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = URLRequestDataLayer.xcodeproj; path = ../URLRequestDataLayer/URLRequestDataLayer.xcodeproj; sourceTree = "<group>"; };
 		CEFF2CED28A8BEC2006B169F /* GiphyRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyRequestBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFF2CF328A8BEDE006B169F /* URLRequestDataLayer.framework in Frameworks */,
-				CEFF2CF028A8BEDC006B169F /* GiphyDomainLayer.framework in Frameworks */,
+				CE728FAB28D0C0E600429022 /* URLRequestDataLayer.xcframework in Frameworks */,
+				CE728FB128D0C2CC00429022 /* GiphyDomainLayer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,29 +118,11 @@
 			path = GiphyDataLayerTests;
 			sourceTree = "<group>";
 		};
-		CEFF2CDC28A8BEA5006B169F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEFF2CE128A8BEA5006B169F /* GiphyDomainLayer.framework */,
-				CEFF2CE328A8BEA5006B169F /* GiphyDomainLayerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CEFF2CE528A8BEB1006B169F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEFF2CEA28A8BEB1006B169F /* URLRequestDataLayer.framework */,
-				CEFF2CEC28A8BEB1006B169F /* URLRequestDataLayerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CEFF2CEF28A8BEDC006B169F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */,
-				CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */,
+				CE728FB028D0C2CC00429022 /* GiphyDomainLayer.xcframework */,
+				CE728FAA28D0C0E600429022 /* URLRequestDataLayer.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,16 +207,6 @@
 			mainGroup = CEFF2CB728A8BE8C006B169F;
 			productRefGroup = CEFF2CC228A8BE8C006B169F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CEFF2CDC28A8BEA5006B169F /* Products */;
-					ProjectRef = CEFF2CDB28A8BEA5006B169F /* GiphyDomainLayer.xcodeproj */;
-				},
-				{
-					ProductGroup = CEFF2CE528A8BEB1006B169F /* Products */;
-					ProjectRef = CEFF2CE428A8BEB1006B169F /* URLRequestDataLayer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				CEFF2CC028A8BE8C006B169F /* GiphyDataLayer */,
@@ -270,37 +214,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CEFF2CE128A8BEA5006B169F /* GiphyDomainLayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GiphyDomainLayer.framework;
-			remoteRef = CEFF2CE028A8BEA5006B169F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEFF2CE328A8BEA5006B169F /* GiphyDomainLayerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GiphyDomainLayerTests.xctest;
-			remoteRef = CEFF2CE228A8BEA5006B169F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEFF2CEA28A8BEB1006B169F /* URLRequestDataLayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = URLRequestDataLayer.framework;
-			remoteRef = CEFF2CE928A8BEB1006B169F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEFF2CEC28A8BEB1006B169F /* URLRequestDataLayerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = URLRequestDataLayerTests.xctest;
-			remoteRef = CEFF2CEB28A8BEB1006B169F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CEFF2CBF28A8BE8C006B169F /* Resources */ = {
@@ -354,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -417,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

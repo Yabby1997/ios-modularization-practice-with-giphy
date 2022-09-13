@@ -1,0 +1,4 @@
+framework module UIKit_Extensions {
+  header "UIKit_Extensions-Swift.h"
+  requires objc
+}

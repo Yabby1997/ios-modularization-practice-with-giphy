@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Flipboard/FLAnimatedImage",
       "state" : {
-        "branch" : "master",
-        "revision" : "d4f07b6f164d53c1212c3e54d6460738b1981e9f"
+        "revision" : "d4f07b6f164d53c1212c3e54d6460738b1981e9f",
+        "version" : "1.0.17"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kean/Nuke",
       "state" : {
-        "branch" : "master",
-        "revision" : "fbaf18311cf0544954034ec8fc51e014793c3c38"
+        "revision" : "a002b7fd786f2df2ed4333fe73a9727499fd9d97",
+        "version" : "10.11.2"
       }
     },
     {

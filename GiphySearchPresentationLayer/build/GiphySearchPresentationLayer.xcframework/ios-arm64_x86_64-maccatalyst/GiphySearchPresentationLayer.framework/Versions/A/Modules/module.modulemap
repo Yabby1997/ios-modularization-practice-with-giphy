@@ -1,0 +1,4 @@
+framework module GiphySearchPresentationLayer {
+  header "GiphySearchPresentationLayer-Swift.h"
+  requires objc
+}
