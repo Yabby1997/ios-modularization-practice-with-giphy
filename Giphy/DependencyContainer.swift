@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit_Extensions
 import GiphySearchPresentationLayer
 import GiphyDomainLayer
 import GiphyDataLayer

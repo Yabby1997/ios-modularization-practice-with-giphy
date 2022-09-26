@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/GiphyDomainLayer-Swift.h</key>
 		<data>
-		zkMXsTOdQyy+A7AjzKjMutkuxv8=
+		Q7OWSgQYbgPe25sn/V0MKUkvgQw=
 		</data>
 		<key>Headers/GiphyDomainLayer.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		D9GMFFe7D0qNsUX6tqrG24W7mXY=
+		a0BTo347NZschcSeJsvD24d1MHw=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7XepEZCl3aUv5LMHPZTk2kohdCY=
+		2DdVaKxAtP62hZpdizpwCtvyL6I=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ln4HFDeno/2vjf5xtNmicTCwZWk=
+		3x+p9FxR6xHGUg9PEIjChXi43Uo=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7XepEZCl3aUv5LMHPZTk2kohdCY=
+		2DdVaKxAtP62hZpdizpwCtvyL6I=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JgxUlAvy0zp9QMpZnasheNL8ZwU=
+		z2Os8mRwFrWPg6QPW7SAXBk5BvI=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OlLqAGvRN1GpK/X9v9LgDiJKaM0=
+		vrLl/kXvyocq3Kcm+BjdjZzPsqI=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c1zzDCW63a4dcLjw2DtshQ/b+7I=
+		ASCFkTa8ZndCUr0T+w/ZqwJuN9Y=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OlLqAGvRN1GpK/X9v9LgDiJKaM0=
+		vrLl/kXvyocq3Kcm+BjdjZzPsqI=
 		</data>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cZG/okJN/E3uv2mocYwpx4gv+1Y=
+		hRbgSHynCBekuVwbWayLl1dJ5p0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rk2xXYuNaX3bSrT+k7mmTlMFr3kTUUYuUIkyMXgFqdo=
+			kGMyDS1cgDrCFuPwIMTbJaQVDpoZ++iEvKizNJCShLE=
 			</data>
 		</dict>
 		<key>Headers/GiphyDomainLayer.h</key>
@@ -88,28 +88,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			coWny91XTv2jIX8md1eItqtyLYW0o8s39rMPlQ1fimo=
+			xygiHNZHOkQKFNGBDuvkeJSS+iALxN9iivO8GGaVLkA=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDJt6ylY/BCm6cWqZrn3mbkuu5qYAu/0PfELVvK4Fwk=
+			I0DinBLbtNHzEWGWlmjT47W+hTJwwzqfIx920sn+cnQ=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			coWny91XTv2jIX8md1eItqtyLYW0o8s39rMPlQ1fimo=
+			xygiHNZHOkQKFNGBDuvkeJSS+iALxN9iivO8GGaVLkA=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rEiOsNzzmA5mebkzImWJu9gLw28wLYuK4qHq0pmsTA=
+			TtQ5Ju/nnzS33MEG0W24LidTCciRyuCioY5t7wMdh8E=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -123,28 +123,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIjh7m7sB+pZVnYVL38glPFO6zK9SxYEapIGG9J2tFg=
+			m7wJQGSXucrN7VA04sXb4exG7XMsFv/Aef/Ux1zzJYc=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7CwWEYP2i28ZUTiNTBTDwbb/4OjMvIzcVyUaZkhwWLc=
+			07lihWpxQZYwuVAXP4GUzwctaEIEa6p2TuIB78MyguE=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIjh7m7sB+pZVnYVL38glPFO6zK9SxYEapIGG9J2tFg=
+			m7wJQGSXucrN7VA04sXb4exG7XMsFv/Aef/Ux1zzJYc=
 			</data>
 		</dict>
 		<key>Modules/GiphyDomainLayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+AzmMJLGhG/Wf0bvq7WgtHjJHNIVkf4C7w3JujrKxIw=
+			bMgCsF8eyYXXw2AHAxtX7gBffDanucCqAlbImVnDsD8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

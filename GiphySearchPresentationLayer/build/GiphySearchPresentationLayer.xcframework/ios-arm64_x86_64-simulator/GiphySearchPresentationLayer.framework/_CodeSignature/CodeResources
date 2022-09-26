@@ -16,53 +16,65 @@
 		<data>
 		5e0TYoIVO1z1UX/SumuxM2TH93Y=
 		</data>
+		<key>Frameworks/UIKit_Extensions.framework/Info.plist</key>
+		<data>
+		FVcgOsBtlk/rrS+1Ov4YuPg4Vv8=
+		</data>
+		<key>Frameworks/UIKit_Extensions.framework/UIKit_Extensions</key>
+		<data>
+		+XqPdIgBM9BltUGbZDqAeazNdNM=
+		</data>
+		<key>Frameworks/UIKit_Extensions.framework/_CodeSignature/CodeResources</key>
+		<data>
+		+mmrJ/DgYMgeao/EuNV/7/mb/YM=
+		</data>
 		<key>Headers/GiphySearchPresentationLayer-Swift.h</key>
 		<data>
-		0QnonBP4yI9NYlNegNXCfjOurvQ=
+		kmbifcHZQDAflPTbjQNgmpi8pk8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EpqQkPyQOe2iI9rknD/MNrMBduw=
+		kaLsFimT4qoa/alsaPsRHAWC3YQ=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZjmJGfOqGWWD6xoQdj5jVziEu+g=
+		e/1AV85BSmdrdqIhlCu9ZWjX1Oc=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		r/z/9sNzZlqAyHuJudhG/ZMrGMs=
+		x/EmAa5n1+APb17sYQGHClRjWSM=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VOh9riOluXzJmGRPjQba8PPT68M=
+		cxNQc/qyHrkGOrig298qfZ8oS6g=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r/z/9sNzZlqAyHuJudhG/ZMrGMs=
+		x/EmAa5n1+APb17sYQGHClRjWSM=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pSspyZbXFMrzk+sUFSOJJRZ07J4=
+		WgaC79QbvgtA0lERrtg7D5eZSIk=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZjmJGfOqGWWD6xoQdj5jVziEu+g=
+		e/1AV85BSmdrdqIhlCu9ZWjX1Oc=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		66sB/9YRrG9cYTNnImWv7ulTTJg=
+		SzB3QIkmbEiMhKqUpgJulrFgBRE=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t74RABynlSCUWMVKj+hIyNGpC3A=
+		Uk0QJ5zK+Kc8Oa/v0J5uevqfAyc=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		66sB/9YRrG9cYTNnImWv7ulTTJg=
+		SzB3QIkmbEiMhKqUpgJulrFgBRE=
 		</data>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Ez2Cp8+cocn0cRuioq2lj10Fyo=
+		k8APTLzrWYi2tcGUqXkgOA6CN0A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,81 +104,102 @@
 			E5bPh7wVN1QzpUq831sCG3nrg8OQKNktJ3SvydD+dm0=
 			</data>
 		</dict>
+		<key>Frameworks/UIKit_Extensions.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A6CcSenSekZ/mB7aTfH1dx06F6eMRr7OZRwx0YDIX2Y=
+			</data>
+		</dict>
+		<key>Frameworks/UIKit_Extensions.framework/UIKit_Extensions</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5bVgsASed0N7jlFvS6y36ufKOoj2yvklX8NJ+wrGRGA=
+			</data>
+		</dict>
+		<key>Frameworks/UIKit_Extensions.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A0PwZzfIAnDkg2tlrhVheJZ9Ny1dVvZcaAzJGfmOXmU=
+			</data>
+		</dict>
 		<key>Headers/GiphySearchPresentationLayer-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIciEQaAWz3lqRBJDn+aJqGE90HOZJW7oE3WIla6rgg=
+			GGdqcosQWv+5ZJKaUuatPVgDsvh+1dZtUfQCxtdyIVA=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStK8/p/SDoBdsveI+gmU92nZPWciGGgP2dhFrk4Z2A=
+			P9hGmIXfIFxNE+9LyARA6DCRt3qWlgiWaFdHDPrJfNo=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7EiyIo10O4LgZxDgqoDwZ+hrvpmbaZU0T1ADCdCjrnk=
+			LgPpNnZ3+WHuBSQIk98hN6gcKlAag/WWDKqkANszJuY=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0efg3CqTjX/sIX04gxsNFX9/Dchab1MgrDDaIUeBWxc=
+			fOh26O0eNYV+l9j6mR+Xtmsv/d6wErqc4Q5/Q/ZTiTY=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7EiyIo10O4LgZxDgqoDwZ+hrvpmbaZU0T1ADCdCjrnk=
+			LgPpNnZ3+WHuBSQIk98hN6gcKlAag/WWDKqkANszJuY=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xrlFRunB6vWuBo9Iw40XbVb3umwnL0wc6U6z88dkuI4=
+			sd3dvqs/bNCQYneGVIsGP0/KIMeWLjl9mfZxoKybOPM=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStK8/p/SDoBdsveI+gmU92nZPWciGGgP2dhFrk4Z2A=
+			P9hGmIXfIFxNE+9LyARA6DCRt3qWlgiWaFdHDPrJfNo=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mgqTJheBzDUuZ8FGLTbkd1/vwPyBGEP2v1frHgymQwY=
+			UpnD1NiR1dvluvkCyd4EstzWiFPpep/ss3BQxd0Gcys=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBz5MNxG9kj72GRvKFIgU4uahfsr5PmS8XGLQObWtOU=
+			drjMtKyJYmGjtsbpZLLmreroB954/DTa60J9UNuW2Co=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mgqTJheBzDUuZ8FGLTbkd1/vwPyBGEP2v1frHgymQwY=
+			UpnD1NiR1dvluvkCyd4EstzWiFPpep/ss3BQxd0Gcys=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LnCAhXoZkOdm7KlmyQx8Zf/hMGSEf6bntGLNL2gBf+4=
+			MH7AtsKXrnjqEOm+pbreYDem5Hg575A74LVhpKmBuOk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

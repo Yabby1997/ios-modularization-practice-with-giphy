@@ -22,6 +22,13 @@
         "moduleName": "GiphySearchPresentationLayer"
       },
       {
+        "kind": "Import",
+        "name": "UIKit_Extensions",
+        "printedName": "UIKit_Extensions",
+        "declKind": "Import",
+        "moduleName": "GiphySearchPresentationLayer"
+      },
+      {
         "kind": "TypeDecl",
         "name": "GiphySearchViewController",
         "printedName": "GiphySearchViewController",
@@ -143,7 +150,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
+                "printedName": "CoreGraphics.CGSize",
                 "usr": "c:@S@CGSize"
               },
               {
@@ -188,7 +195,7 @@
                 "kind": "TypeNominal",
                 "name": "CGFloat",
                 "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "usr": "s:12CoreGraphics7CGFloatV"
               },
               {
                 "kind": "TypeNominal",
@@ -232,7 +239,7 @@
                 "kind": "TypeNominal",
                 "name": "CGFloat",
                 "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "usr": "s:12CoreGraphics7CGFloatV"
               },
               {
                 "kind": "TypeNominal",
@@ -503,14 +510,14 @@
     {
       "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphySearchPresentationLayer\/GiphySearchPresentationLayer\/GiphySearchViewController.swift",
       "kind": "Array",
-      "offset": 756,
+      "offset": 682,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphySearchPresentationLayer\/GiphySearchPresentationLayer\/GiphySearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 186,
       "length": 25,
       "value": "\"GiphySearchPresentationLayer.GiphySearchViewController\""
     },

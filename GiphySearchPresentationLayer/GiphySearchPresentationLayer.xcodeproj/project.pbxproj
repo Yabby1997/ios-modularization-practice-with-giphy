@@ -16,6 +16,8 @@
 		CE16FEE728BA096800390980 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE16FEE628BA096800390980 /* SnapKit */; };
 		CE728FB728D0C31800429022 /* GiphyDomainLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */; };
 		CE728FB828D0C31800429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE9EAEE828E1E26800C6CA89 /* UIKit+Extensions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9EAEE628E1E22D00C6CA89 /* UIKit+Extensions.xcframework */; };
+		CE9EAEE928E1E26800C6CA89 /* UIKit+Extensions.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE9EAEE628E1E22D00C6CA89 /* UIKit+Extensions.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				CE9EAEE928E1E26800C6CA89 /* UIKit+Extensions.xcframework in Embed Frameworks */,
 				CE728FB828D0C31800429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -50,6 +53,7 @@
 		CE0881D728A8CD8F00910E3E /* GiphySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchViewModel.swift; sourceTree = "<group>"; };
 		CE16FEDD28BA003100390980 /* GiphySearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphyDomainLayer.xcframework; path = ../GiphyDomainLayer/build/GiphyDomainLayer.xcframework; sourceTree = "<group>"; };
+		CE9EAEE628E1E22D00C6CA89 /* UIKit+Extensions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "UIKit+Extensions.xcframework"; path = "../UIKit+Extensions/build/UIKit+Extensions.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9EAEE828E1E26800C6CA89 /* UIKit+Extensions.xcframework in Frameworks */,
 				CE16FEE428BA079D00390980 /* Kingfisher in Frameworks */,
 				CE16FEE728BA096800390980 /* SnapKit in Frameworks */,
 				CE728FB728D0C31800429022 /* GiphyDomainLayer.xcframework in Frameworks */,
@@ -114,6 +119,7 @@
 		CE0881D128A8CD7100910E3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE9EAEE628E1E22D00C6CA89 /* UIKit+Extensions.xcframework */,
 				CE728FB628D0C31800429022 /* GiphyDomainLayer.xcframework */,
 			);
 			name = Frameworks;

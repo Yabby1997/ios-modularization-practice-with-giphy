@@ -7,25 +7,25 @@
 
 import UIKit
 
-protocol ReusableView {
+protocol UICollectionViewReusableView {
     static var identifier: String { get }
 }
 
-extension ReusableView {
+extension UICollectionViewReusableView {
     static var identifier: String {
         String(describing: self)
     }
 }
 
-extension UICollectionViewCell: ReusableView { }
-extension UICollectionReusableView: ReusableView { }
+extension UICollectionViewCell: UICollectionViewReusableView { }
+extension UICollectionReusableView: UICollectionViewReusableView { }
 
-extension UICollectionView {
+public extension UICollectionView {
     func register<Cell: UICollectionViewCell>(cell type: Cell.Type) {
         register(type, forCellWithReuseIdentifier: type.identifier)
     }
 
-    func register<SupplementaryView: UICollectionViewCell>(
+    func register<SupplementaryView: UICollectionReusableView>(
         supplementaryView type: SupplementaryView.Type,
         forSupplementaryViewOfKind kind: String
     ) {

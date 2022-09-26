@@ -11,7 +11,7 @@ import SnapKit
 import Kingfisher
 
 final class GiphySearchCollectionViewCell: UICollectionViewCell {
-    static let identifier = #file
+//    static let identifier = #file
 
     private let imageView = AnimatedImageView()
 

@@ -7,6 +7,7 @@
 
 import Combine
 import UIKit
+import UIKit_Extensions
 
 public final class GiphySearchViewController: UIViewController {
 
@@ -14,10 +15,7 @@ public final class GiphySearchViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(
-            GiphySearchCollectionViewCell.self,
-            forCellWithReuseIdentifier: GiphySearchCollectionViewCell.identifier
-        )
+        collectionView.register(cell: GiphySearchCollectionViewCell.self)
         return collectionView
     }()
 
@@ -98,11 +96,7 @@ extension GiphySearchViewController: UICollectionViewDataSource {
         _ collectionView: UICollectionView,
         cellForItemAt indexPath: IndexPath
     ) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(
-            withReuseIdentifier: GiphySearchCollectionViewCell.identifier,
-            for: indexPath
-        )
-        guard let cell = cell as? GiphySearchCollectionViewCell else { return cell }
+        let cell = collectionView.dequeueReusableCell(type: GiphySearchCollectionViewCell.self, for: indexPath)
         let image = viewModel.images[indexPath.item]
         cell.imageUrl = image.thumbnailUrl
         return cell

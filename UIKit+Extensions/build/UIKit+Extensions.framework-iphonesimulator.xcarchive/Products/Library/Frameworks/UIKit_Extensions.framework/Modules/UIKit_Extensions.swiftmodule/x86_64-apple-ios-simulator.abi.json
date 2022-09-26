@@ -182,6 +182,257 @@
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UICollectionView",
+        "printedName": "UICollectionView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(cell:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC16UIKit_ExtensionsE8register4cellyxm_tSo0aB4CellCRbzlF",
+            "mangledName": "$sSo16UICollectionViewC16UIKit_ExtensionsE8register4cellyxm_tSo0aB4CellCRbzlF",
+            "moduleName": "UIKit_Extensions",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
+            "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(supplementaryView:forSupplementaryViewOfKind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC16UIKit_ExtensionsE8register013supplementaryB0016forSupplementaryB6OfKindyxm_SStSo0a8ReusableB0CRbzlF",
+            "mangledName": "$sSo16UICollectionViewC16UIKit_ExtensionsE8register013supplementaryB0016forSupplementaryB6OfKindyxm_SStSo0a8ReusableB0CRbzlF",
+            "moduleName": "UIKit_Extensions",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionReusableView>",
+            "sugared_genericSig": "<SupplementaryView where SupplementaryView : UIKit.UICollectionReusableView>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableCell",
+            "printedName": "dequeueReusableCell(type:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC16UIKit_ExtensionsE19dequeueReusableCell4type3forxxm_10Foundation9IndexPathVtSo0abG0CRbzlF",
+            "mangledName": "$sSo16UICollectionViewC16UIKit_ExtensionsE19dequeueReusableCell4type3forxxm_10Foundation9IndexPathVtSo0abG0CRbzlF",
+            "moduleName": "UIKit_Extensions",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionViewCell>",
+            "sugared_genericSig": "<Cell where Cell : UIKit.UICollectionViewCell>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableSupplementaryView",
+            "printedName": "dequeueReusableSupplementaryView(ofKind:type:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC16UIKit_ExtensionsE028dequeueReusableSupplementaryB06ofKind4type3forxSS_xm10Foundation9IndexPathVtSo0afB0CRbzlF",
+            "mangledName": "$sSo16UICollectionViewC16UIKit_ExtensionsE028dequeueReusableSupplementaryB06ofKind4type3forxSS_xm10Foundation9IndexPathVtSo0afB0CRbzlF",
+            "moduleName": "UIKit_Extensions",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionReusableView>",
+            "sugared_genericSig": "<SupplementaryView where SupplementaryView : UIKit.UICollectionReusableView>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UICollectionView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "6.0",
+        "objc_name": "UICollectionView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8

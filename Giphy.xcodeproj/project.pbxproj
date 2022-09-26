@@ -26,6 +26,8 @@
 		CE728FDC28D0C95300429022 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CE728FDB28D0C95300429022 /* Kingfisher */; };
 		CE728FE528D0C99800429022 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE728FE428D0C99800429022 /* SnapKit */; };
 		CEB5C0C328AA2B41009EBDBE /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = CEB5C0C228AA2B41009EBDBE /* Swinject */; };
+		CEC044E928E1E7B900AC5127 /* UIKit+Extensions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC044E728E1E64100AC5127 /* UIKit+Extensions.xcframework */; };
+		CEC044EA28E1E7B900AC5127 /* UIKit+Extensions.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEC044E728E1E64100AC5127 /* UIKit+Extensions.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,7 @@
 				CE728FCD28D0C57100429022 /* GiphyDataLayer.xcframework in Embed Frameworks */,
 				CE728FD028D0C57B00429022 /* GiphyDomainLayer.xcframework in Embed Frameworks */,
 				CE728FD328D0C58900429022 /* GiphySearchPresentationLayer.xcframework in Embed Frameworks */,
+				CEC044EA28E1E7B900AC5127 /* UIKit+Extensions.xcframework in Embed Frameworks */,
 				CE728FD628D0C8F800429022 /* URLRequestDataLayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -59,6 +62,7 @@
 		CE728FCE28D0C57B00429022 /* GiphyDomainLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphyDomainLayer.xcframework; path = GiphyDomainLayer/build/GiphyDomainLayer.xcframework; sourceTree = "<group>"; };
 		CE728FD128D0C58900429022 /* GiphySearchPresentationLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphySearchPresentationLayer.xcframework; path = GiphySearchPresentationLayer/build/GiphySearchPresentationLayer.xcframework; sourceTree = "<group>"; };
 		CE728FD428D0C8F800429022 /* URLRequestDataLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = URLRequestDataLayer.xcframework; path = URLRequestDataLayer/build/URLRequestDataLayer.xcframework; sourceTree = "<group>"; };
+		CEC044E728E1E64100AC5127 /* UIKit+Extensions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "UIKit+Extensions.xcframework"; path = "UIKit+Extensions/build/UIKit+Extensions.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				CE728FCF28D0C57B00429022 /* GiphyDomainLayer.xcframework in Frameworks */,
 				CE728FDC28D0C95300429022 /* Kingfisher in Frameworks */,
 				CE728FD528D0C8F800429022 /* URLRequestDataLayer.xcframework in Frameworks */,
+				CEC044E928E1E7B900AC5127 /* UIKit+Extensions.xcframework in Frameworks */,
 				CE728FC928D0C56800429022 /* URLRequestDataSourceLayer.xcframework in Frameworks */,
 				CEB5C0C328AA2B41009EBDBE /* Swinject in Frameworks */,
 				CE728FE528D0C99800429022 /* SnapKit in Frameworks */,
@@ -114,6 +119,7 @@
 		CEE155E428A8CE2B00756C89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEC044E728E1E64100AC5127 /* UIKit+Extensions.xcframework */,
 				CE728FD428D0C8F800429022 /* URLRequestDataLayer.xcframework */,
 				CE728FD128D0C58900429022 /* GiphySearchPresentationLayer.xcframework */,
 				CE728FCE28D0C57B00429022 /* GiphyDomainLayer.xcframework */,

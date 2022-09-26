@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		Lji1Ko53lBvq7tXmXU+4aYmKyRE=
+		AzUHKC006d4blj2L5eRHFTL+0EE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,86 +15,95 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			meLHcoi2IoWtYeIGSUMcYp9VkdY=
+			DQvIutJqZAkLIEyto0fb9e0TeKA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.seunghun.GiphyDomainLayer" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Seunghun Yang (FX957WXVX9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/UIKit_Extensions.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			SsZszqBDgzBlRSX95s8My/FRnkA=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.seunghun.UIKit-Extensions" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Seunghun Yang (FX957WXVX9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Headers/GiphySearchPresentationLayer-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIciEQaAWz3lqRBJDn+aJqGE90HOZJW7oE3WIla6rgg=
+			EVCCH3/5UO0/uJOVALlZuzDibbHmJFe3qZuqx94ya0o=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStK8/p/SDoBdsveI+gmU92nZPWciGGgP2dhFrk4Z2A=
+			FkqxWI2r09B0iiJSE+j1zypyFlIQyePWZhod17N2mWE=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v9h3s5k0f+w5w8IpSy6no8/p6AaiEKMiZp3mERpUrik=
+			98zJD8vInPq66L1z+8kR06VjhL7bJtMfsl0K86Eocl4=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xueRu6APinDxVEPMJvQG7MOblW7+e5xrBMtB8SiDVU=
+			UuM+ZquW0EwGbe1QJTFHXcdNJHuJc6P2w3SWrlskIdM=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v9h3s5k0f+w5w8IpSy6no8/p6AaiEKMiZp3mERpUrik=
+			98zJD8vInPq66L1z+8kR06VjhL7bJtMfsl0K86Eocl4=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fhz+im11YKiAmTVjdvBHcTNCRVNmu6bTlRkWNNeesqE=
+			iNWnLfnkDoQrwQhETB/3QWzotPDnuWTF6VXOY3av7/A=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStK8/p/SDoBdsveI+gmU92nZPWciGGgP2dhFrk4Z2A=
+			FkqxWI2r09B0iiJSE+j1zypyFlIQyePWZhod17N2mWE=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EWcuDxJKy87e9BSHaJZ73Bk6i+1T1IJgJvEIZHg9xiQ=
+			O816WJqTYXsEjqdH6LOuGtugaJrmXRYxb7hjPya+Pto=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erPRC9jSc10ASVGOlJRAo7iv3llpgHZU7FXC/jbCnSs=
+			6kVzioALvc59185+8rB0gWRzLB2rpkCe0Inn1E1gaF8=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EWcuDxJKy87e9BSHaJZ73Bk6i+1T1IJgJvEIZHg9xiQ=
+			O816WJqTYXsEjqdH6LOuGtugaJrmXRYxb7hjPya+Pto=
 			</data>
 		</dict>
 		<key>Modules/GiphySearchPresentationLayer.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uCWtucz6FN2B/sn4CtfSEAlBxnH9/UAKV2X1gtQcNAM=
+			jBjs7DQoM6FUNh7qgYipx174/u53ke73En+V+uGbRYo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -108,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3IfPaMaUDAaYfsUATSfvzmG8kADYJ+nPngBQAKhvn2k=
+			hJV9APViOxCZEN9ivKc6IeFB0VW5zzJq4iwrH72COxU=
 			</data>
 		</dict>
 	</dict>

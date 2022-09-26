@@ -1,8 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.123.8 clang-1400.0.29.50)
-// swift-module-flags: -target x86_64-apple-ios15.5-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UIKit_Extensions
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios15.4-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UIKit_Extensions
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Swift
 import UIKit
 import _Concurrency
-import _StringProcessing
+extension UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) public func register<Cell>(cell type: Cell.Type) where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func register<SupplementaryView>(supplementaryView type: SupplementaryView.Type, forSupplementaryViewOfKind kind: Swift.String) where SupplementaryView : UIKit.UICollectionReusableView
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableCell<Cell>(type: Cell.Type, for indexPath: Foundation.IndexPath) -> Cell where Cell : UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableSupplementaryView<SupplementaryView>(ofKind kind: Swift.String, type: SupplementaryView.Type, for indexPath: Foundation.IndexPath) -> SupplementaryView where SupplementaryView : UIKit.UICollectionReusableView
+}
